@@ -1,26 +1,23 @@
 # Team-Vand
-# Fishing Project
+# Segment 1: Consulting Company -to- Fishing Charter
 
 ## Project Goal
 
 
------------------------------
+---------------------------
 
-## Questions we want to answer
-- ??
 
 ---------------------------
 
-## Group communication protocols
+## Team Vand Communication Protocols:
 
-- Throughout this project the group has constantly made contact through the slack app. 
-- This includes sharing information that we find online, code & arranging meetings at least once a week.
+- Our primary modes of communication were Slack and Zoom. Throughout the week, we frequently shared online information and code updates. We arranged meetings atleast once a week outside of class as insurance against any miscommunication. This allowed for us to stay on one accord throughout the project, coming to a common consensus each step of the way. Slack was most beneficial for questions that needed answering on the fly, sending links, and additional commentary.
 
-**Team Responsibilties**\
-***De'Ja*** - project square\
-***Chandler*** - contributor (circle)\
-***Chris*** - contributor (triangle)
-***Anthony*** - contributor (x)
+**Team Responsibilties**
+***De'Ja*** - Square Role **|** 
+***Chandler*** - Circle Role **|** 
+***Chris*** - Triangle Role **|** 
+***Anthony*** - X Role **|** 
 
 --------------------------
 
@@ -61,6 +58,7 @@ The team connected python with SQL and created databse
 
 
 Data Source: 
+https://www.fisheries.noaa.gov/recreational-fishing-data/recreational-fishing-data-downloads#general-survey-data-downloads
 
 ## Presentation 
 
