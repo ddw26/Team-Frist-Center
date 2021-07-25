@@ -4,7 +4,7 @@
 
 ![image](https://github.com/ddw26/Team-Vand/blob/antxamp/Resources/Fishingrods.PNG)
 
-    --  Images are freestock for this project. 
+    --  Free stock images were used for parts of this project. 
 ## Project Goal(Topic)
 - To create a prediction model about catching fish. The model will give a prediction on what conditions are favorable 
 for the user so they don't end up going home empty handed! 
