@@ -4,7 +4,7 @@
 Pandas will be used to clean the data and perform an exploratory analysis. Further analysis will be completed using Python.
 
 ## Database Storage
-Postgres and SQLlite has both been tested and is the database we intend to use, and we will integrate to display the data.
+Postgres and SQLlite have both been tested and is the database we intend to use, and we will integrate to display the data.
 
 ## Machine Learning
 SciKitLearn is the ML library we'll be using to create a classifier. Our training and testing setup is ___. 
