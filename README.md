@@ -1,15 +1,15 @@
-# Team-Vand
+# Team-Frist Center
 # Segment 1: Consulting Company -to- Fishing Charter
 
 ## Objectives:
-Our Consulting Company is tasked with aiding a Fishing Charter in improving their customer satisfaction with a relevant, data driven approach. 
+Our Consulting Company is tasked with aiding a Fishing Charter in improving their customer satisfaction in a relevant, data driven approach. 
 
 ---------------------------
 
 
 ---------------------------
 
-## Team Vand Communication Protocols:
+## Team Frist Center Communication Protocols:
 
 - Our primary modes of communication were Slack and Zoom. Throughout the week, we frequently shared online information and code updates. We arranged meetings atleast once a week outside of class as insurance against any miscommunication. This allowed for us to stay on one accord throughout the project, coming to a common consensus each step of the way. Slack was most beneficial for questions that needed answering on the fly, sending links, and additional commentary.
 
