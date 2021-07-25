@@ -2,9 +2,13 @@
 
 # Our Fishing Project
 
+![image](https://github.com/ddw26/Team-Vand/blob/antxamp/Resources/Fishingrods.PNG)
+
+    --  Images are freestock for this project. 
 ## Project Goal(Topic)
 - To create a prediction model about catching fish. The model will give a prediction on what conditions are favorable 
-to catch certain fish that will allow the user to have a better idea of what to fish for in order to leave with a catch.
+for the user so they don't end up going home empty handed! 
+
 
 -----------------------------
 
@@ -19,14 +23,18 @@ to catch certain fish that will allow the user to have a better idea of what to 
 - This includes sharing information that we find online, code & arranging meetings at least once a week.
 
 **Team Responsibilties**
+
 ***De'Ja*** - contributor (square)
+
 ***Chandler*** - contributor (circle)
+
 ***Chris*** - contributor (triangle)
+
 ***Anthony*** - contributor (x)
 
 --------------------------
 
-## Getting Started (Segement 1 Deliverable)
+## Getting Started/Sketching it out (Segment 1 Deliverable)
 - The group will come together and decide what topic we would like choose for our project.
 - Will find out where our data will come from
 - Create github repo and branches for all 4 members
@@ -36,13 +44,6 @@ to catch certain fish that will allow the user to have a better idea of what to 
 ## Exploratory Data 
 
 The data will be sourced from (https://www.fisheries.noaa.gov/)
-
---------------------------------
-
-## Data Analysis & Machine Learning
-- The group will be using PostgresSQL or SQLlite for our database and have the data cleaned. Once cleaned, the Data will
-then go into a machine learning transformation which will need fine tuning to get the answer to the questions we have listed above.
-Here is a screenshot of the data put into a machine learning model. 
 
 ----------------------------
 
@@ -55,9 +56,17 @@ Below is a sample of the database.
 
 ----------------------------
 
+## Data Analysis & Machine Learning
+- The group will be using PostgresSQL or SQLlite for our database and have the data cleaned. Once cleaned, the Data will
+then go into a machine learning transformation which will need fine tuning to get the answer to the questions we have listed above.
+Here is a screenshot of the data put into a machine learning model. 
+![image](https://github.com/ddw26/Team-Vand/blob/antxamp/Resources/SS_machine_learn.PNG)
+
+----------------------------
+
 ## Project Flow-Chart
 
-- Displayed is a short mock-up of our process. 
+- Displayed is a short mock-up of our intended process. 
 ![image](https://github.com/ddw26/Team-Vand/blob/antxamp/Resources/mockup.PNG)
 
 ----------------------------
