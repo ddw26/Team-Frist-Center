@@ -24,13 +24,13 @@ for the user so they don't end up going home empty handed!
 
 **Team Responsibilties**
 
-***De'Ja*** - contributor (square)
+***De'Ja*** - contributor (square_role github repo)
 
-***Chandler*** - contributor (circle)
+***Chandler*** - contributor (circle_role mockup database)
 
-***Chris*** - contributor (triangle)
+***Chris*** - contributor (triangle_role machine learning)
 
-***Anthony*** - contributor (x)
+***Anthony*** - contributor (x role_technology flow)
 
 --------------------------
 
