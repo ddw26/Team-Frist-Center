@@ -65,6 +65,10 @@ then go into a machine learning transformation which will need fine tuning to ge
 Here is a screenshot of the data put into a machine learning model. 
 ![image](https://github.com/ddw26/Team-Vand/blob/antxamp/Resources/SS_machine_learn.PNG)
 
+Below is a screenshot of the model's current accuracy score before refinement
+<img width="820" alt="Screen Shot 2021-07-25 at 6 55 55 PM" src="https://user-images.githubusercontent.com/80016496/126917556-9d073724-9dab-468b-ba51-8503d0dc9d37.png">
+
+
 ----------------------------
 
 ## Project Flow-Chart
