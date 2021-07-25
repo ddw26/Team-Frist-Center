@@ -71,6 +71,11 @@ Here is a screenshot of the data put into a machine learning model.
 
 ----------------------------
 
+## Presentation Mock-up
+
+- Below is just a sample of what our presentation may end up similar to. Presentation is subject to change*
+
+![image](https://github.com/ddw26/Team-Vand/blob/antxamp/Resources/sample_presentation.PNG)
 
 ## Resources
 
