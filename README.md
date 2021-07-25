@@ -1,6 +1,6 @@
 # (Team Frist Center)
 
-# Our Fishing Project
+# The Fishing Project
 
 ![image](https://github.com/ddw26/Team-Vand/blob/antxamp/Resources/Fishingrods.PNG)
 
