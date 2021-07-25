@@ -18,7 +18,6 @@ for the user so they don't end up going home empty handed!
 ---------------------------
 
 ## Group communication protocols
-
 - Throughout this project the group has constantly made contact through the slack app and zoom. 
 - This includes sharing information that we find online, code & arranging meetings at least once a week.
 
@@ -41,6 +40,8 @@ for the user so they don't end up going home empty handed!
 - Roles will be distributed and at least 4 commits will be initiated
 - Group will select what technologies will be used. 
 
+![image](https://github.com/ddw26/Team-Vand/blob/antxamp/Resources/branches.PNG)
+
 ## Exploratory Data 
 
 The data will be sourced from (https://www.fisheries.noaa.gov/)
@@ -52,8 +53,10 @@ The data will be sourced from (https://www.fisheries.noaa.gov/)
 - The team connected python with PostGresSQL and created a database
 Below is a sample of the database. 
 
-[Click here to see the data working properly in Postgres](https://github.com/ddw26/Team-Vand/blob/circle_role_crkaide/sql_database_working_recording.mp4)
+**SEE VIDEO BELOW**
 
+[Click here to see the data working properly in Postgres](https://github.com/ddw26/Team-Vand/blob/circle_role_crkaide/sql_database_working_recording.mp4)
+![image](https://github.com/ddw26/Team-Vand/blob/antxamp/Resources/database.PNG)
 ----------------------------
 
 ## Data Analysis & Machine Learning
@@ -73,7 +76,7 @@ Here is a screenshot of the data put into a machine learning model.
 
 ## Presentation Mock-up
 
-- Below is just a sample of what our presentation may end up similar to. Presentation is subject to change*
+- Below is just a sample of what our presentation may end up similar to. **Visual presentation is subject to change***
 
 ![image](https://github.com/ddw26/Team-Vand/blob/antxamp/Resources/sample_presentation.PNG)
 
