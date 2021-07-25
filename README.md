@@ -1,4 +1,4 @@
-# Team-Vand (Team Frist Center)
+# (Team Frist Center)
 
 # Our Fishing Project
 
@@ -50,8 +50,7 @@ The data will be sourced from (https://www.fisheries.noaa.gov/)
 
 ## Database
 
-- The team connected python with PostGresSQL and created a database
-Below is a sample of the database. 
+- The team connected the database using PdAdmin and created a database as seen below.
 
 **SEE VIDEO BELOW**
 
@@ -60,7 +59,7 @@ Below is a sample of the database.
 ----------------------------
 
 ## Data Analysis & Machine Learning
-- The group will be using PostgresSQL or SQLlite for our database and have the data cleaned. Once cleaned, the Data will
+- The group will be using Postgres or SQLlite for our database and have the data cleaned. Once cleaned, the Data will
 then go into a machine learning transformation which will need fine tuning to get the answer to the questions we have listed above.
 Here is a screenshot of the data put into a machine learning model. 
 ![image](https://github.com/ddw26/Team-Vand/blob/antxamp/Resources/SS_machine_learn.PNG)
@@ -85,3 +84,4 @@ Here is a screenshot of the data put into a machine learning model.
 - Jupyter Notebook
 - Python, Pandas, PostgresSQL
 - Lucid Charts
+- PgAdmin
