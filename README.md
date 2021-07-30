@@ -1,3 +1,24 @@
+# CK NOTES ON DATABASE
+
+- Read in data from 6 source files
+- Assemble comprehensive dataframe
+- Clean comp dataframe (drop NaN/null, rename columns, convert column types)
+- Filter out unknowns
+- Split into keys and values dataframes and format these
+- Generate dataframes and graphs for exploratory analysis:
+    - df_filtered_values_final
+    - df_filtered_keys_final
+    - df_sampling_period_sum
+    - df_sampling_period_avg
+    - df_kind_of_day_sum
+    - df_kind_of_day_avg
+    - df_mode_sum
+    - df_mode_avg
+    - df_target_sum
+    - df_target_avg
+
+-----------------------------
+
 # (Team Frist Center)
 
 # The Fishing Project
