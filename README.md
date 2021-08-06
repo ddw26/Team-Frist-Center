@@ -14,35 +14,6 @@ for the user so they don't end up going home empty handed!
 - To display the average amount of time spent on fishing with the data that was provided.
 - Use machine learning to predict the probability of a catch.
 
------------------------------
-
-## Group communication protocols
-- Throughout this project the group has constantly made contact through the slack app and zoom. 
-- This includes sharing information that we find online, code & arranging meetings at least once a week.
-
-**Team Responsibilties**
-
-***De'Ja*** - contributor
-
-***Chandler*** - contributor
-
-***Chris*** - contributor
-
-***Anthony*** - contributor 
-
-
-## Resources
-
-- Jupyter Notebook
-- Python, Pandas, PostgresSQL
-- Tableau
-- PgAdmin
-- RDS/AWS
-
-## Exploratory Data 
-
-The data will be sourced from (https://www.fisheries.noaa.gov/)
-
 --------------------------
 
 ## Module 20 (Segment 2 Deliverable)
@@ -115,3 +86,34 @@ Below is a screenshot of the model's current accuracy score before refinement
 [Click here to see our interactive fishing project on Tableau](https://public.tableau.com/views/TheFishingProject/CountiesNC?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 ![image](https://github.com/ddw26/Team-Frist-Center/blob/antxamp/Resources/Tableua(1).PNG)
+
+-----------------------------
+
+## Group communication protocols
+- Throughout this project the group has constantly made contact through the slack app and zoom. 
+- This includes sharing information that we find online, code & arranging meetings at least once a week.
+
+**Team Responsibilties**
+
+***De'Ja*** - contributor
+
+***Chandler*** - contributor
+
+***Chris*** - contributor
+
+***Anthony*** - contributor 
+
+-----------------------------
+
+## Resources
+
+- Jupyter Notebook/Lab
+- Python, Pandas, SQL
+- Tableau Public
+- PgAdmin
+- RDS/AWS
+
+## Exploratory Data 
+
+The data will be sourced from (https://www.fisheries.noaa.gov/)
+
