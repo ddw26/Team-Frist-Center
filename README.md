@@ -1,3 +1,22 @@
+# SEGMENT TWO REQUIREMENTS:
+
+- Database stores static data for use during the project
+-  *Data stored in three places:  on GitHub in a csv, on AWS as a comprehensive database, and in SQL as three databases (separate databases with keys and values, and a comprehensive one joined by SQL that was sent to an S3 bucket in AWS)*
+
+- Database interfaces with the project in some format (e.g., scraping updates the database, or database connects to the model)
+- *Model connects to multiple database files*
+
+- Includes at least two tables (or collections, if using MongoDB)
+- *Three main tables at work:  one with keys only, one with values only, and one comprehensive that joins them side by side*
+
+- Includes at least one join using the database language (not including any joins in Pandas)
+- *Keys and values files were joined by SQL to make the comprehensive file*
+
+- Includes at least one connection string (using SQLAlchemy or PyMongo)
+- *PyMongo connection file included which demonstrates the connection at work*
+
+-----------------------------
+
 # CK NOTES ON DATABASE
 
 - Read in data from 6 source files
