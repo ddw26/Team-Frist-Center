@@ -11,6 +11,8 @@ ALTER TABLE aws_values
 ALTER COLUMN "Area of fishing" TYPE VARCHAR;
 
 -- Perform join and save results
+DROP TABLE aws_comp;
+
 SELECT * INTO aws_comp
 FROM aws_keys
 LEFT OUTER JOIN aws_values
