@@ -83,7 +83,15 @@ Below is a screenshot of the model's current accuracy score before refinement
 - Although the dashboard is still under refinement here is the current status. As you can see, the team has connected the data successfully were able to connect the new data output and create a viz using tableau.
 - Currently the data is being revised to better fit the visualiztion we are trying to achieve.
 
+<<<<<<< HEAD
 [Click here to see our interactive fishing project on Tableau](https://public.tableau.com/views/TheFishingProject/CountiesNC?:language=en-US&:display_count=n&:origin=viz_share_link)
+=======
+Below is a screenshot of the model's current accuracy score before refinement
+<img width="820" alt="Screen Shot 2021-07-25 at 6 55 55 PM" src="https://user-images.githubusercontent.com/80016496/126917556-9d073724-9dab-468b-ba51-8503d0dc9d37.png">
+
+
+----------------------------
+>>>>>>> e92d4fd48c7c05596b431de5d9cefa34db853f79
 
 ![image](https://github.com/ddw26/Team-Frist-Center/blob/antxamp/Resources/Tableua(1).PNG)
 
