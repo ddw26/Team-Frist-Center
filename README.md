@@ -109,7 +109,8 @@ Below is a screenshot of the model's current accuracy score before refinement
 
 ## Dashboard
 ### Segment 2 Dashboard outline
-- Although the dashboard is still under refinement here is the current status. You can see that as a team we have connected the data that went through the ETL process and we were successfully able to connect the new data output and create a viz using tableau.
+- Although the dashboard is still under refinement here is the current status. As you can see, the team has connected the data successfully were able to connect the new data output and create a viz using tableau.
+- Currently the data is being revised to better fit the visualiztion we are trying to achieve.
 
 [Click here to see our interactive fishing project on Tableau](https://public.tableau.com/views/TheFishingProject/CountiesNC?:language=en-US&:display_count=n&:origin=viz_share_link)
 
