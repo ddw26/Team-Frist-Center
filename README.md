@@ -1,14 +1,14 @@
-# SEGMENT TWO REQUIREMENTS:
+# SEGMENT TWO DATABASE/CIRCLE REQUIREMENTS:
 
-- Database stores static data for use during the project:  *Data stored in three places:  on GitHub in a csv, on AWS as a comprehensive database, and in SQL as three databases (separate databases with keys and values, and a comprehensive one joined by SQL that was sent to an S3 bucket in AWS)*
+- Database stores static data for use during the project:  *Data stored in three places:  on GitHub in a csv, on AWS as a comprehensive database (location available in newest analysis ipynb), and in SQL as three databases (separate databases with keys and values, and a comprehensive one joined by SQL that was sent to an S3 bucket in AWS; this is demonstrated in the newest .mov file in this branch)*
 
 - Database interfaces with the project in some format (e.g., scraping updates the database, or database connects to the model):  *Model connects to multiple database files*
 
-- Includes at least two tables (or collections, if using MongoDB):  *Three main tables at work:  one with keys only, one with values only, and one comprehensive that joins them side by side*
+- Includes at least two tables (or collections, if using MongoDB):  *Three main tables at work:  one with keys only, one with values only, and one comprehensive that joins them in SQL side by side and forms the file in the S3 bucket in AWS*
 
-- Includes at least one join using the database language (not including any joins in Pandas):  *Keys and values files were joined by SQL to make the comprehensive file*
+- Includes at least one join using the database language (not including any joins in Pandas):  *Keys and values files were joined by SQL to make the comprehensive file; newest .mov file demonstrates this in action*
 
-- Includes at least one connection string (using SQLAlchemy or PyMongo):  *PyMongo connection file included which demonstrates the connection at work*
+- Includes at least one connection string (using SQLAlchemy or PyMongo):  *PyMongo connection file included in analysis ipynb which demonstrates the connection at work*
 
 -----------------------------
 
