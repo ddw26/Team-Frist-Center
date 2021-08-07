@@ -1,22 +1,56 @@
-# SEGMENT TWO DATABASE/CIRCLE REQUIREMENTS:
+# (Team Frist Center)
 
-- Database stores static data for use during the project:  *Data stored in three places:  on GitHub in a csv, on AWS as a comprehensive database (location available in newest analysis ipynb), and in SQL as three databases (separate databases with keys and values, and a comprehensive one joined by SQL that was sent to an S3 bucket in AWS; this is demonstrated in the newest .mov file in this branch)*
+# The Fishing Project
 
-- Database interfaces with the project in some format (e.g., scraping updates the database, or database connects to the model):  *Model connects to multiple database files*
+![image](https://github.com/ddw26/Team-Vand/blob/antxamp/Resources/Fishingrods.PNG)
 
-- Includes at least two tables (or collections, if using MongoDB):  *Three main tables at work:  one with keys only, one with values only, and one comprehensive that joins them in SQL side by side and forms the file in the S3 bucket in AWS*
+    --  Free stock images were used for parts of this project. 
+## Project Goal(Topic)
+- To create a prediction model about catching fish. The model will give a prediction on what conditions are favorable 
+for the user so they don't end up going home empty handed! 
+- We have data that shows the species of fish and we have North Carolina as a sample state with it's coastal counties. 
+- We are wanting to show the different conditions in which the different species of fish have been caught successfully.
+- We want to be able to use the data to predict better outcomes for those that are wanting to spend money with private boats or charters.
+- To display the average amount of time spent on fishing with the data that was provided.
+- Use machine learning to predict the probability of a catch.
 
-- Includes at least one join using the database language (not including any joins in Pandas):  *Keys and values files were joined by SQL to make the comprehensive file; newest .mov file demonstrates this in action*
+--------------------------
 
-- Includes at least one connection string (using SQLAlchemy or PyMongo):  *PyMongo connection file included in analysis ipynb which demonstrates the connection at work*
+## Module 20 (Segment 2 Deliverable)
+### Below is the criteria for Segement 2 rubric:
+- Overall Presentation
+- GitHub 
+- Machine Learning
+- Database
+- Dashboard
 
------------------------------
+----------------------------
 
-# CK NOTES ON DATABASE
+## GitHub
+- As a team we were able to communicate and merge branches accordingly and have kept the main repo and branches clean. 
+![image](https://github.com/ddw26/Team-Vand/blob/antxamp/Resources/branches.PNG)
+![image](https://github.com/ddw26/Team-Frist-Center/blob/antxamp/Resources/githubcollab.PNG)
 
+----------------------------
+
+## Machine Learning
+- The group will be using Postgres or SQLlite for our database and have the data cleaned. Once cleaned, the Data will
+then go into a machine learning transformation which will need fine tuning to get the answer to the questions we have listed above.
+Here is a screenshot of the data put into a machine learning model. 
+![image](https://github.com/ddw26/Team-Vand/blob/antxamp/Resources/SS_machine_learn.PNG)
+
+Below is a screenshot of the model's current accuracy score before refinement
+<img width="820" alt="Screen Shot 2021-07-25 at 6 55 55 PM" src="https://user-images.githubusercontent.com/80016496/126917556-9d073724-9dab-468b-ba51-8503d0dc9d37.png">
+
+----------------------------
+
+## Database
+### Segment 2 changes
 - Read in data from 6 source files
-- Assemble comprehensive dataframe
+![image](https://github.com/ddw26/Team-Frist-Center/blob/antxamp/Resources/6SourceFiles.PNG)
+- Assembled comprehensive dataframe
 - Clean comp dataframe (drop NaN/null, rename columns, convert column types)
+![image](https://github.com/ddw26/Team-Frist-Center/blob/antxamp/Resources/DropNull.PNG)
 - Filter out unknowns
 - Split into keys and values dataframes and format these
 - Generate dataframes and graphs for exploratory analysis:
@@ -30,61 +64,10 @@
     - df_mode_avg
     - df_target_sum
     - df_target_avg
+- Join AWS dataframes
+![image](https://github.com/ddw26/Team-Frist-Center/blob/antxamp/Resources/JoinAWS.PNG)
+![image](https://github.com/ddw26/Team-Frist-Center/blob/antxamp/Resources/JoinAWS(2).PNG)
 
------------------------------
-
-# (Team Frist Center)
-
-# The Fishing Project
-
-![image](https://github.com/ddw26/Team-Vand/blob/antxamp/Resources/Fishingrods.PNG)
-
-    --  Free stock images were used for parts of this project. 
-## Project Goal(Topic)
-- To create a prediction model about catching fish. The model will give a prediction on what conditions are favorable 
-for the user so they don't end up going home empty handed! 
-
-
------------------------------
-
-## Questions we want to answer
-- How likely are you to catch 'name' fish and in what conditions are favorable to achieve a high success rate?
-
----------------------------
-
-## Group communication protocols
-- Throughout this project the group has constantly made contact through the slack app and zoom. 
-- This includes sharing information that we find online, code & arranging meetings at least once a week.
-
-**Team Responsibilties**
-
-***De'Ja*** - contributor (square_role github repo)
-
-***Chandler*** - contributor (circle_role mockup database)
-
-***Chris*** - contributor (triangle_role machine learning)
-
-***Anthony*** - contributor (x role_technology flow)
-
---------------------------
-
-## Getting Started/Sketching it out (Segment 1 Deliverable)
-- The group will come together and decide what topic we would like choose for our project.
-- Will find out where our data will come from
-- Create github repo and branches for all 4 members
-- Roles will be distributed and at least 4 commits will be initiated
-- Group will select what technologies will be used. 
-
-![image](https://github.com/ddw26/Team-Vand/blob/antxamp/Resources/branches.PNG)
-![image](https://github.com/ddw26/Team-Frist-Center/blob/antxamp/Resources/githubcollab.PNG)
-
-## Exploratory Data 
-
-The data will be sourced from (https://www.fisheries.noaa.gov/)
-
-----------------------------
-
-## Database
 
 - The team connected the database using PdAdmin and created a database as seen below.
 
@@ -92,36 +75,45 @@ The data will be sourced from (https://www.fisheries.noaa.gov/)
 
 [Click here to see the data working properly in Postgres](https://github.com/ddw26/Team-Vand/blob/circle_role_crkaide/sql_database_working_recording.mp4)
 ![image](https://github.com/ddw26/Team-Vand/blob/antxamp/Resources/database.PNG)
-----------------------------
-
-## Data Analysis & Machine Learning
-- The group will be using Postgres or SQLlite for our database and have the data cleaned. Once cleaned, the Data will
-then go into a machine learning transformation which will need fine tuning to get the answer to the questions we have listed above.
-Here is a screenshot of the data put into a machine learning model. 
-![image](https://github.com/ddw26/Team-Vand/blob/antxamp/Resources/SS_machine_learn.PNG)
-
-Below is a screenshot of the model's current accuracy score before refinement
-<img width="820" alt="Screen Shot 2021-07-25 at 6 55 55 PM" src="https://user-images.githubusercontent.com/80016496/126917556-9d073724-9dab-468b-ba51-8503d0dc9d37.png">
-
 
 ----------------------------
 
-## Project Flow-Chart
+## Dashboard
+### Segment 2 Dashboard outline
+- Although the dashboard is still under refinement here is the current status. As you can see, the team has connected the currrent data successfully and were able to get outputs to create a viz using tableau.
+- Currently the data is being revised to better fit the visualiztion we are trying to achieve.
 
-- Displayed is a short mock-up of our intended process. 
-![image](https://github.com/ddw26/Team-Vand/blob/antxamp/Resources/mockup.PNG)
+[Click here to see our interactive fishing project on Tableau](https://public.tableau.com/views/TheFishingProject/CountiesNC?:language=en-US&:display_count=n&:origin=viz_share_link)
 
-----------------------------
+![image](https://github.com/ddw26/Team-Frist-Center/blob/antxamp/Resources/Tableua(1).PNG)
 
-## Presentation Mock-up
+-----------------------------
 
-- Below is just a sample of what our presentation may end up similar to. **Visual presentation is subject to change***
+## Group communication protocols
+- Throughout this project the group has constantly made contact through the slack app and zoom. 
+- This includes sharing information that we find online, code & arranging meetings at least once a week.
 
-![image](https://github.com/ddw26/Team-Vand/blob/antxamp/Resources/sample_presentation.PNG)
+**Team Responsibilties**
+
+***De'Ja*** - contributor
+
+***Chandler*** - contributor
+
+***Chris*** - contributor
+
+***Anthony*** - contributor 
+
+-----------------------------
 
 ## Resources
 
-- Jupyter Notebook
-- Python, Pandas, PostgresSQL
-- Lucid Charts
+- Jupyter Notebook/Lab
+- Python, Pandas, SQL
+- Tableau Public
 - PgAdmin
+- RDS/AWS
+
+## Exploratory Data 
+
+The data will be sourced from (https://www.fisheries.noaa.gov/)
+
