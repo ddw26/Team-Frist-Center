@@ -28,6 +28,7 @@ for the user so they don't end up going home empty handed!
 
 ## GitHub
 - As a team we were able to communicate and merge branches accordingly and have kept the main repo and branches clean. 
+
 ![image](https://github.com/ddw26/Team-Vand/blob/antxamp/Resources/branches.PNG)
 ![image](https://github.com/ddw26/Team-Frist-Center/blob/antxamp/Resources/githubcollab.PNG)
 
