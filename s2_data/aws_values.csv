@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 index,Date file created,Month of intercept,Time of intercept,Data sampling period,Sub region of trip,Kind of day,Fish target species,Mode of fishing,Collapsed area of fishing,Distance from shore,Hours on boat,Hours fished,Catch fish,Number of fish avail for inspection,County of intercept,State of intercept,Area of fishing,Angler age,Angler gender,Number in fishing party,Number of contributing fishermen,See any sea turtles while fishing?
 0,16-Mar-20,2,1512,January/February,South Atlantic (NC; SC; GA; EFL),Weekday,SPOTTED SEATROUT,Charter boat,Inland,not applicable,7,6,Yes,3,Onslow,NC,River,52,Male,2,2,No
 1,16-Mar-20,1,1250,January/February,South Atlantic (NC; SC; GA; EFL),Weekend,RED DRUM,Charter boat,Inland,not applicable,5,4.5,No,0,New Hanover,NC,River,69,Male,2,1,No
@@ -2563,6 +2564,8 @@ index,Date file created,Month of intercept,Time of intercept,Data sampling perio
 2560,19-Jan-21,11,1243,November/December,South Atlantic (NC; SC; GA; EFL),Weekend,SPOTTED SEATROUT,Private/Rental boat,Inland,not applicable,7,7,Yes,5,Onslow,NC,River,30,Male,2,2,No
 2561,19-Jan-21,11,1504,November/December,South Atlantic (NC; SC; GA; EFL),Weekend,SPOTTED SEATROUT,Private/Rental boat,Inland,not applicable,7,6,Yes,2,Onslow,NC,River,59,Male,2,2,No
 =======
+=======
+>>>>>>> 26306cd89bde2bb24e562537bd24ede326dec913
 ,Date file created_v,Month of intercept_v,Time of intercept_v,Data sampling period_v,Sub region of trip_v,Kind of day_v,Fish target species_v,Mode of fishing_v,Collapsed area of fishing_v,Distance from shore_v,Hours on boat_v,Hours fished_v,Catch fish_v,Number of fish avail for inspection_v,County of intercept_v,State of intercept_v,Area of fishing_v,Angler age_v,Angler gender_v,Number in fishing party_v,Number of contributing fishermen_v,See any sea turtles while fishing?_v
 0,16MAR20,2,1512,January/February,South Atlantic (NC; SC; GA; EFL),Weekday,SPOTTED SEATROUT,Charter boat,Inland,not applicable,7.0,6.0,Yes,3,Onslow,NC,River,52,Male,2,2,No
 1,16MAR20,1,1250,January/February,South Atlantic (NC; SC; GA; EFL),Weekend,RED DRUM,Charter boat,Inland,not applicable,5.0,4.5,No,0,New Hanover,NC,River,69,Male,2,1,No
@@ -5126,4 +5129,7 @@ index,Date file created,Month of intercept,Time of intercept,Data sampling perio
 2559,19JAN21,11,1141,November/December,South Atlantic (NC; SC; GA; EFL),Weekday,SPOTTED SEATROUT,Private/Rental boat,Inland,not applicable,4.5,4.5,Yes,5,Onslow,NC,River,65,Male,2,2,No
 2560,19JAN21,11,1243,November/December,South Atlantic (NC; SC; GA; EFL),Weekend,SPOTTED SEATROUT,Private/Rental boat,Inland,not applicable,7.0,7.0,Yes,5,Onslow,NC,River,30,Male,2,2,No
 2561,19JAN21,11,1504,November/December,South Atlantic (NC; SC; GA; EFL),Weekend,SPOTTED SEATROUT,Private/Rental boat,Inland,not applicable,7.0,6.0,Yes,2,Onslow,NC,River,59,Male,2,2,No
+<<<<<<< HEAD
+>>>>>>> 26306cd89bde2bb24e562537bd24ede326dec913
+=======
 >>>>>>> 26306cd89bde2bb24e562537bd24ede326dec913
