@@ -55,7 +55,6 @@ df_target_avg
 Join AWS dataframes image image
 SEE VIDEOS BELOW
 
-Here is a video of the data mocked up in AWS s3 bucket. Click here to see the RDS in AWS/S3
 
 The team connected the database using PdAdmin and created a database as seen below. Click here to see the data working properly in Postgres
 
