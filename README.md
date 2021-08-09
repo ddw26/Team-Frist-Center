@@ -2,26 +2,22 @@
 ## The Fishing Project
 
 
-## Project Goal(Topic)
-To create a prediction model about catching fish. The model will give a prediction on what conditions are favorable for the user so they don't end up going home empty handed!
-We have data that shows the species of fish and we have North Carolina as a sample state with it's coastal counties.
-We are wanting to show the different conditions in which the different species of fish have been caught successfully.
-We want to be able to use the data to predict better outcomes for those that are wanting to spend money with private boats or charters.
+## Objective (Topic)
+Our objective is to create a machine learning model + corresponding analysis for a Fishing company. The model gives a prediction on what conditions are favorable so that the fishers are less likely to go home empty handed! The data we use showcases several fish species caught in varying conditions. We chose North Carolina as a sample state with focus on it's coastal counties. Our goal is to use the data to predict better outcomes for those that are wanting to spend money with private boats or charters.
 To display the average amount of time spent on fishing with the data that was provided.
 Use machine learning to predict the probability of a catch.
 
 ## Module 20 (Segment 2 Deliverable)
 Below is the criteria for Segement 2 rubric:
-Overall Presentation
-GitHub
-Machine Learning
-Database
-Dashboard
-GitHub
-As a team we were able to communicate and merge branches accordingly and have kept the main repo and branches clean.
+- Overall Presentation
+- GitHub
+- Machine Learning
+- Database
+- Dashboard
+- GitHub
 
 ## Machine Learning Overview (Segment 2 Deliverable)
-Our analysis dives in on fishing trip data on the east coast of the united states. North Carolina is a fishing hub offering a wide variety of fishing tourism options through private rentals and charter boats. Our model sets out to determine how successful fishers are at catching fish based on several factors. Our intial data was sourced from NOAA and held a variety of incomplete records. As a part of our data cleaning, we stripped out non-relevant qualitative columns to focus on key components of fishing trips including type of boat, excursion location, date/time, houirs fished and proximity to shore. When we initially ran our model, we noticed a a perfect success rate indicating something was inadvertently skewing our model. Upon diving into the data, we discovered "number of fish available for inspection" was carrying the majority of the weight in our features for determining our accuracy. Since our focus is probability of catching fish as opposed to "quanitity" we made the decision to remove this field. Upon doing so and re-runnning the model, we had a much more reasonable accuracy rate. Our data was split based on the outcome of the fishing trip e.g. were fish caught or not.
+Our analysis dives in on fishing trip data on the east coast of the United States. North Carolina is a fishing hub offering a wide variety of fishing tourism options through private rentals and charter boats. Our model aims to determine how successful fishers are at catching fish based on several factors. Our intial data was sourced from NOAA and held a variety of incomplete records. As a part of our data cleaning, we extracted irrelevant qualitative columns to focus on key components of fishing trips including type of boat, excursion location, date/time, houirs fished and proximity to shore. When we initially ran our model, we noticed a a perfect success rate indicating something was inadvertently skewing our model. Upon diving into the data, we discovered "number of fish available for inspection" was carrying the majority of the weight in our features for determining our accuracy. Since our focus is probability of catching fish as opposed to "quanitity" we made the decision to remove this field. Upon doing so and re-runnning the model, we had a much more reasonable accuracy rate. Our data was split based on the outcome of the fishing trip e.g. were fish caught or not.
 
 Given our initial unfamiliarity with the data and the breadth of features, it was important our model provided flexbility without substantial normalization efforts. - - -Additionally, given our data set, Random Forests helps us minimize overfitting and works well with non-linear data such as our fishing data set.
 
@@ -76,8 +72,7 @@ Click here to see our interactive fishing project on Tableau
 
 
 ## Group communication protocols
-Throughout this project the group has constantly made contact through the slack app and zoom.
-This includes sharing information that we find online, code & arranging meetings at least once a week.
+Throughout Segment #2, our team made consistent cntact through Slack and Zoom. We shared information, code, and arranged meetings atleast once a week. We collaborated, asked for each other's input, and merged branches accordingly; this resulted in organized branches and repo. 
 Team Responsibilties
 
 De'Ja - contributor
