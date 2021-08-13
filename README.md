@@ -16,13 +16,25 @@ for the user so they don't end up going home empty handed!
 
 --------------------------
 
-## Module 20 (Segment 2 Deliverable)
+## Module 20 (Segment 3 Deliverable)
 ### Below is the criteria for Segement 2 rubric:
-- Overall Presentation
+- Using Google Slide
 - GitHub 
 - Machine Learning
 - Database
 - Dashboard
+
+----------------------------
+## Google Slide Presentation
+- In Google slides all team members were all allowed access and added to the presentation via live during class. 
+- This are some screen shots of some of the work team members have contributed. 
+
+
+![image](https://github.com/ddw26/Team-Frist-Center/blob/antxamp/Resources/googleslide.PNG)
+- Each team member was allowed to add content and make updates seamlessly. 
+![image](https://github.com/ddw26/Team-Frist-Center/blob/antxamp/Resources/googleslide(1).PNG)
+![image](https://github.com/ddw26/Team-Frist-Center/blob/antxamp/Resources/googleslide(2).PNG)
+
 
 ----------------------------
 
@@ -34,7 +46,7 @@ for the user so they don't end up going home empty handed!
 
 ----------------------------
 
-## Machine Learning Overview (Segment 2 Deliverable)
+## Machine Learning Overview (Segment 3 Deliverable)
 
 - Our analysis dives in on fishing trip data on the east coast of the united states. North Carolina is a fishing hub offering a wide variety of fishing tourism options through private rentals and charter boats. Our model sets out to determine how successful fishers are at catching fish based on several factors. Our intial data was sourced from NOAA and held a variety of incomplete records. As a part of our data cleaning, we stripped out non-relevant qualitative columns to focus on key components of fishing trips including type of boat, excursion location, date/time, houirs fished and proximity to shore. When we initially ran our model, we noticed a a perfect success rate indicating something was inadvertently skewing our model. Upon diving into the data, we discovered "number of fish available for inspection" was carrying the majority of the weight in our features for determining our accuracy. Since our focus is probability of catching fish as opposed to "quanitity" we made the decision to remove this field. Upon doing so and re-runnning the model, we had a much more reasonable accuracy rate. Our data was split based on the outcome of the fishing trip e.g. were fish caught or not.
 
@@ -67,7 +79,7 @@ Here is a screenshot of the data put into a machine learning model.
 ----------------------------
 
 ## Database
-### Segment 2 changes
+### Segment 3
 - Read in data from 6 source files
 ![image](https://github.com/ddw26/Team-Frist-Center/blob/antxamp/Resources/6SourceFiles.PNG)
 - Assembled comprehensive dataframe
@@ -102,7 +114,7 @@ Here is a screenshot of the data put into a machine learning model.
 ----------------------------
 
 ## Dashboard
-### Segment 2 Dashboard outline
+### Segment 3 Dashboard
 - Although the dashboard is still under refinement here is the current status. As you can see, the team has connected the currrent data successfully and were able to get outputs to create a viz using tableau.
 - Currently the data is being revised to better fit the visualiztion we are trying to achieve.
 
@@ -133,7 +145,7 @@ Here is a screenshot of the data put into a machine learning model.
 ![image](https://github.com/ddw26/Team-Frist-Center/blob/antxamp/Resources/Interactive.PNG)
 
 ----------------------------
-
+## Google Slides 
 # Results:
 
 ![image](https://github.com/ddw26/Team-Frist-Center/blob/antxamp/Resources/results.png)
