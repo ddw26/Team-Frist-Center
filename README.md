@@ -115,10 +115,8 @@ Here is a screenshot of the data put into a machine learning model.
 
 ## Dashboard
 ### Segment 3 Dashboard
-- Although the dashboard is still under refinement here is the current status. As you can see, the team has connected the currrent data successfully and were able to get outputs to create a viz using tableau.
-- Currently the data is being revised to better fit the visualiztion we are trying to achieve.
 
-[Click here to see our interactive fishing project on Tableau](https://public.tableau.com/views/TheFishingProject/CountiesNC?:language=en-US&:display_count=n&:origin=viz_share_link)
+[Click here to see our Dashboard on Tableau](https://public.tableau.com/views/TheFishingProject/CountiesNC?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 ![image](https://github.com/ddw26/Team-Frist-Center/blob/antxamp/Resources/Tableua(1).PNG)
 
