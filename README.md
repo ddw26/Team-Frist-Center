@@ -17,7 +17,7 @@ for the user so they don't end up going home empty handed!
 --------------------------
 
 ## Module 20 (Segment 3 Deliverable)
-### Below is the criteria for Segement 2 rubric:
+### Below is the criteria for Segement 3 rubric:
 - Using Google Slide
 - GitHub 
 - Machine Learning
