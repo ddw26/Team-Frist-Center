@@ -30,6 +30,7 @@ for the user so they don't end up going home empty handed!
 - These are some screen shots of some of the work team members have contributed. 
 - All members had input and worked with great team collabortion.
 
+[Click here for Google Slide](https://docs.google.com/presentation/d/1sm7wlc8bZVtYHaXsrnpew_1lfN20yCyRBYqpo1Z_wH4/edit#slide=id.p1)
 
 ![image](https://github.com/ddw26/Team-Frist-Center/blob/antxamp/Resources/googleslide.PNG)
 - Each team member was allowed to add content and make updates seamlessly. 
