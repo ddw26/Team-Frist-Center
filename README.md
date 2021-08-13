@@ -177,6 +177,7 @@ Here is a screenshot of the data put into a machine learning model.
 - Tableau Public
 - PgAdmin
 - RDS/AWS
+- Google Slides
 
 ## Exploratory Data 
 
