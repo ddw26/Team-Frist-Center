@@ -27,7 +27,8 @@ for the user so they don't end up going home empty handed!
 ----------------------------
 ## Google Slide Presentation
 - In Google slides all team members were all allowed access and added to the presentation via live during class. 
-- This are some screen shots of some of the work team members have contributed. 
+- These are some screen shots of some of the work team members have contributed. 
+- All members had input and worked with great team collabortion.
 
 
 ![image](https://github.com/ddw26/Team-Frist-Center/blob/antxamp/Resources/googleslide.PNG)
