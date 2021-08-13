@@ -92,11 +92,17 @@ Here is a screenshot of the data put into a machine learning model.
     - df_filtered_values_final
     - df_filtered_keys_final
     - df_sampling_period_sum
+ ![image](https://github.com/ddw26/Team-Frist-Center/blob/circle_role_crkaide/s2_data/sampling_period_hours_fished_sum.png)
     - df_sampling_period_avg
+ ![image](https://github.com/ddw26/Team-Frist-Center/blob/circle_role_crkaide/s2_data/sampling_period_hours_fished_avg.png)
     - df_kind_of_day_sum
+ ![image](https://github.com/ddw26/Team-Frist-Center/blob/circle_role_crkaide/s2_data/kind_day_hours_fished_sum.png)
     - df_kind_of_day_avg
+ ![image](https://github.com/ddw26/Team-Frist-Center/blob/circle_role_crkaide/s2_data/kind_day_hours_fished_avg.png)
     - df_mode_sum
+  ![image](https://github.com/ddw26/Team-Frist-Center/blob/circle_role_crkaide/s2_data/mode_hours_fished_sum.png)
     - df_mode_avg
+ ![image](https://github.com/ddw26/Team-Frist-Center/blob/circle_role_crkaide/s2_data/mode_hours_fished_avg.png)
     - df_target_sum
     - df_target_avg
 - Join AWS dataframes
@@ -118,8 +124,6 @@ Here is a screenshot of the data put into a machine learning model.
 ### Segment 3 Dashboard
 
 [Click here to see our Dashboard on Tableau](https://public.tableau.com/views/TheFishingProject/CountiesNC?:language=en-US&:display_count=n&:origin=viz_share_link)
-
-![image](https://github.com/ddw26/Team-Frist-Center/blob/antxamp/Resources/Tableua(1).PNG)
 
 - We started with a clean data source and connected it by creating extract.
 - As you can see the extract to the data source was flawless.
@@ -173,7 +177,7 @@ Here is a screenshot of the data put into a machine learning model.
 ## Resources
 
 - Jupyter Notebook/Lab
-- Python, Pandas, SQL
+- Python, Pandas, SQL, plotly
 - Tableau Public
 - PgAdmin
 - RDS/AWS
