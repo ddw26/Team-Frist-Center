@@ -16,13 +16,27 @@ for the user so they don't end up going home empty handed!
 
 --------------------------
 
-## Module 20 (Segment 2 Deliverable)
-### Below is the criteria for Segement 2 rubric:
-- Overall Presentation
+## Module 20 (Segment 3 Deliverable)
+### Below is the criteria for Segement 3 rubric:
+- Using Google Slide
 - GitHub 
 - Machine Learning
 - Database
 - Dashboard
+
+----------------------------
+## Google Slide Presentation
+- In Google slides all team members were all allowed access and added to the presentation via live during class. 
+- These are some screen shots of some of the work team members have contributed. 
+- All members had individual input with great teamwork.
+
+[Click here for Google Slide](https://docs.google.com/presentation/d/1sm7wlc8bZVtYHaXsrnpew_1lfN20yCyRBYqpo1Z_wH4/edit#slide=id.p1)
+
+![image](https://github.com/ddw26/Team-Frist-Center/blob/antxamp/Resources/googleslide.PNG)
+- Each team member was allowed to add content and make updates seamlessly. 
+![image](https://github.com/ddw26/Team-Frist-Center/blob/antxamp/Resources/googleslide(1).PNG)
+![image](https://github.com/ddw26/Team-Frist-Center/blob/antxamp/Resources/googleslide(2).PNG)
+
 
 ----------------------------
 
@@ -34,7 +48,7 @@ for the user so they don't end up going home empty handed!
 
 ----------------------------
 
-## Machine Learning Overview (Segment 2 Deliverable)
+## Machine Learning Overview (Segment 3 Deliverable)
 
 - Our analysis dives in on fishing trip data on the east coast of the united states. North Carolina is a fishing hub offering a wide variety of fishing tourism options through private rentals and charter boats. Our model sets out to determine how successful fishers are at catching fish based on several factors. Our intial data was sourced from NOAA and held a variety of incomplete records. As a part of our data cleaning, we stripped out non-relevant qualitative columns to focus on key components of fishing trips including type of boat, excursion location, date/time, houirs fished and proximity to shore. When we initially ran our model, we noticed a a perfect success rate indicating something was inadvertently skewing our model. Upon diving into the data, we discovered "number of fish available for inspection" was carrying the majority of the weight in our features for determining our accuracy. Since our focus is probability of catching fish as opposed to "quanitity" we made the decision to remove this field. Upon doing so and re-runnning the model, we had a much more reasonable accuracy rate. Our data was split based on the outcome of the fishing trip e.g. were fish caught or not.
 
@@ -67,7 +81,7 @@ Here is a screenshot of the data put into a machine learning model.
 ----------------------------
 
 ## Database
-### Segment 2 changes
+### Segment 3
 - Read in data from 6 source files
 ![image](https://github.com/ddw26/Team-Frist-Center/blob/antxamp/Resources/6SourceFiles.PNG)
 - Assembled comprehensive dataframe
@@ -79,11 +93,17 @@ Here is a screenshot of the data put into a machine learning model.
     - df_filtered_values_final
     - df_filtered_keys_final
     - df_sampling_period_sum
+ ![image](https://github.com/ddw26/Team-Frist-Center/blob/circle_role_crkaide/s2_data/sampling_period_hours_fished_sum.png)
     - df_sampling_period_avg
+ ![image](https://github.com/ddw26/Team-Frist-Center/blob/circle_role_crkaide/s2_data/sampling_period_hours_fished_avg.png)
     - df_kind_of_day_sum
+ ![image](https://github.com/ddw26/Team-Frist-Center/blob/circle_role_crkaide/s2_data/kind_day_hours_fished_sum.png)
     - df_kind_of_day_avg
+ ![image](https://github.com/ddw26/Team-Frist-Center/blob/circle_role_crkaide/s2_data/kind_day_hours_fished_avg.png)
     - df_mode_sum
+  ![image](https://github.com/ddw26/Team-Frist-Center/blob/circle_role_crkaide/s2_data/mode_hours_fished_sum.png)
     - df_mode_avg
+ ![image](https://github.com/ddw26/Team-Frist-Center/blob/circle_role_crkaide/s2_data/mode_hours_fished_avg.png)
     - df_target_sum
     - df_target_avg
 - Join AWS dataframes
@@ -102,13 +122,40 @@ Here is a screenshot of the data put into a machine learning model.
 ----------------------------
 
 ## Dashboard
-### Segment 2 Dashboard outline
-- Although the dashboard is still under refinement here is the current status. As you can see, the team has connected the currrent data successfully and were able to get outputs to create a viz using tableau.
-- Currently the data is being revised to better fit the visualiztion we are trying to achieve.
+### Segment 3 Dashboard
 
-[Click here to see our interactive fishing project on Tableau](https://public.tableau.com/views/TheFishingProject/CountiesNC?:language=en-US&:display_count=n&:origin=viz_share_link)
+[Click here to see our Dashboard on Tableau](https://public.tableau.com/views/TheFishingProject/CountiesNC?:language=en-US&:display_count=n&:origin=viz_share_link)
 
-![image](https://github.com/ddw26/Team-Frist-Center/blob/antxamp/Resources/Tableua(1).PNG)
+- We started with a clean data source and connected it by creating extract.
+- As you can see the extract to the data source was flawless.
+
+![image](https://github.com/ddw26/Team-Frist-Center/blob/antxamp/Resources/Create%20Extract.PNG)
+
+- With the data source we were able to input the data such as coordinates to display geographical models.
+- Within this particular model you can see the amount of fish caught and reported within the coastal counties of North Carolina.
+
+![image](https://github.com/ddw26/Team-Frist-Center/blob/antxamp/Resources/CreatingViz.PNG)
+
+- Here you can see the heatmap displaying information of popular catches within the calendar year.
+- The user can interact with the smaller boxes to see more information.
+- The bigger the box the higher the number of catch.
+- Don’t worry, the dolphins that were caught were released back into the ocean. 
+
+![image](https://github.com/ddw26/Team-Frist-Center/blob/antxamp/Resources/fishtabdash.PNG)
+
+### Interactive Dashboard
+- With this dashboard you’re able to click around and identify the best area and times with just a quick glimpse. This was created using the Tableau dashboard options.
+
+![image](https://github.com/ddw26/Team-Frist-Center/blob/antxamp/Resources/Interactive.PNG)
+
+----------------------------
+## Google Slides 
+# Results:
+
+![image](https://github.com/ddw26/Team-Frist-Center/blob/antxamp/Resources/results.png)
+
+
+
 
 -----------------------------
 
@@ -131,12 +178,12 @@ Here is a screenshot of the data put into a machine learning model.
 ## Resources
 
 - Jupyter Notebook/Lab
-- Python, Pandas, SQL
+- Python, Pandas, SQL, plotly
 - Tableau Public
 - PgAdmin
 - RDS/AWS
+- Google Slides
 
 ## Exploratory Data 
 
 The data will be sourced from (https://www.fisheries.noaa.gov/)
-
