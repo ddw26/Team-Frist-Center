@@ -5,8 +5,8 @@
 ## Objective (Topic)
 Our objective is to create a machine learning model + corresponding analysis for fishers and boating companies. The model will predict the most favorable outcomes for fishers based on varying conditions. Not only is this data beneficial for fishers, but also for the private/charter boat companies- as it allows them to adapt/align their business practices with our findings in mind. We want fishers less likely to go home empty handed, and boating companies more successful. The data we use showcases several fish species and what circumstances made a substantial catch. We display the average amount of time spent on fishing. We chose North Carolina as a sample state, with focus on it's coastal counties.
 
-## Module 20 (Segment #2 Deliverable)
-Below is the criteria for Segement #2 Rubric:
+## Module 20 (Segment #3 Deliverable)
+Below is the criteria for Segement #3 Rubric:
 - Overall Presentation
 - GitHub
 - Machine Learning
@@ -14,7 +14,10 @@ Below is the criteria for Segement #2 Rubric:
 - Dashboard
 - GitHub
 
-## Machine Learning Overview (Segment #2 Deliverable)
+## Google Slide Presentation 
+
+
+## Machine Learning Overview (Segment #3 Deliverable)
 Our analysis dives in on fishing trip data on the east coast of the United States. North Carolina is a fishing hub offering a wide variety of fishing tourism options through private rentals and charter boats. Our model aims to determine how successful fishers are at catching fish based on several factors. Our intial data was sourced from NOAA and held a variety of incomplete records. As a part of our data cleaning, we removed irrelevant qualitative columns to focus on key components of fishing trips including type of boat, excursion location, date/time, hours fished and proximity to shore. When we first ran our model, we noticed a perfect (100%) success rate, indicating that something was inadvertently skewing our model. Therefore, with a more critical eye, we devled into the data and discovered "number of fish available for inspection" was carrying the majority of the weight in our features for determining accuracy. Since our focus is probability of catching fish as opposed to "quanitity" we made the decision to remove this field. In doing so, we had a much more reasonable accuracy rate when re-running the model. Our data was split based on the outcome of the fishing trip e.g. were fish caught or not.
 
 Given our initial unfamiliarity with the data and the breadth of features, it was important our model provided flexbility without substantial normalization efforts. - - -Additionally, given our data set, Random Forests helps us minimize overfitting and works well with non-linear data such as our fishing data set.
@@ -35,7 +38,7 @@ The group will be using Postgres or SQLlite for our database and have the data c
 Below is a screenshot of the model's current accuracy score before refinement (Segment 1)
 
 ## Database
-[Segment #2 Changes:]
+[Segment #3 Changes:]
 Read in data from 6 source files image
 Assembled comprehensive dataframe
 Clean comp dataframe (drop NaN/null, rename columns, convert column types) image
@@ -65,7 +68,7 @@ The team has connected the currrent data successfully and were able to get outpu
 Currently the data is being revised to better fit the visualiztion we are striving to achieve.
 Click here to see our interactive fishing project on Tableau
 
-
+## Results
 
 ## Group communication protocols
 Throughout Segment #2, our team made consistent cntact through Slack and Zoom. We shared information, code, and arranged meetings atleast once a week. We collaborated, asked for each other's input, and merged branches accordingly; this resulted in organized branches + clean repository. 
