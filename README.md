@@ -31,18 +31,27 @@ https://docs.google.com/presentation/d/1sm7wlc8bZVtYHaXsrnpew_1lfN20yCyRBYqpo1Z_
 ## Machine Learning Overview (Segment #3 Deliverable)
 Our analysis dives in on fishing trip data on the east coast of the United States. North Carolina is a fishing hub offering a wide variety of fishing tourism options through private rentals and charter boats. Our model aims to determine how successful fishers are at catching fish based on several factors. Our intial data was sourced from NOAA and held a variety of incomplete records. As a part of our data cleaning, we removed irrelevant qualitative columns to focus on key components of fishing trips including type of boat, excursion location, date/time, hours fished and proximity to shore. When we first ran our model, we noticed a perfect (100%) success rate, indicating that something was inadvertently skewing our model. Therefore, with a more critical eye, we devled into the data and discovered "number of fish available for inspection" was carrying the majority of the weight in our features for determining accuracy. Since our focus is probability of catching fish as opposed to "quanitity" we made the decision to remove this field. In doing so, we had a much more reasonable accuracy rate when re-running the model. Our data was split based on the outcome of the fishing trip e.g. were fish caught or not.
 
-Given our initial unfamiliarity with the data and the breadth of features, it was important our model provided flexbility without substantial normalization efforts. - - -Additionally, given our data set, Random Forests helps us minimize overfitting and works well with non-linear data such as our fishing data set.
+Given our initial unfamiliarity with the data and the breadth of features, it was important our model provided flexbility without substantial normalization efforts. - - -Additionally, given our data set, Random Forests helps minimize overfitting and works well with non-linear data such as our fishing data set.
+
+<img width="663" alt="Machine L1" src="https://user-images.githubusercontent.com/77905862/129496786-aa3ff944-105c-493a-b25f-d575a06feb93.png">
 
 
 ## Model Overview
-First we tested neural networks, random forests and Easy Ensemble models. Given our data set and objective of predicting the likelihood of a successful catch, we decided to use Balanced Random Forest. With this model, we were able to achieve an 83 % accuracy rate.
+First we tested neural networks, random forests and Easy Ensemble models. Given our data set and objective of predicting the likelihood of a successful catch, we decided to use Balanced Random Forest. With this model, we achieved an 83 % accuracy rate.
+
+<img width="679" alt="Machine L2" src="https://user-images.githubusercontent.com/77905862/129496921-730965d9-4b3b-42b2-9ad9-47172f3d4c24.png">
 
 When we evaluated our different features, we were able to see time spent on fishing expeditions provided the highest input to the predicting success, followed by mode of trip and time of year.
 
-As we are trying to make recommendation to both charter companies and tourists on the east coast, clearly understanding what features matter most will help us make better informed recommendations to all parties to help the industry be successful, and lead to positive ooutcomes for tourists/fisherman.
+<img width="686" alt="Machine L3" src="https://user-images.githubusercontent.com/77905862/129496940-34acd57d-80e8-42e1-aa26-384163e2b221.png">
+
+
+Considering that our mission is to make recommendations to both charter companies and tourists on the east coast, having a clear understanding about which features are most valuable grant us the ability to make useful recommendations to all parties. The utility of our reccomendations will increase industry success overall, and lead to positive ooutcomes for tourists/fisherman.
+
+
 
  
-Our team will be using Postgres or SQLlite for our database and have the data cleaned. Once cleaned, the data will then go into a machine learning transformation which will need fine tuning to get the answer to the questions we have listed above. Here is a screenshot of the data put into a machine learning model.
+Our team used Postgres or SQLlite for our database (clean data). The data went hen go into a machine learning transformation which fine tuning to get the answer to the questions we have listed above. Here is a screenshot of the data put into a machine learning model.
 
 
 
@@ -104,16 +113,17 @@ With this dashboard you’re able to click around and identify the best area and
 
 
 ## Group communication protocols
-Throughout Segment #3, our team made consistent contact through Slack and Zoom. During class, we edited the Google slides presentation together. We shared information, code, and arranged meetings atleast once a week. We collaborated, asked for each other's input, and merged branches accordingly; this resulted in organized branches + clean repository. 
-Team Responsibilties
+Throughout Segment #3, our team made consistent contact through Slack and Zoom. During class, we edited our Google slides presentation together. We shared information, code, and arranged meetings atleast once a week. We collaborated, asked for each other's input, and merged branches accordingly; this resulted in organized branches + clean repository. 
 
-- De'Ja - contributor
+## Team Responsibilties
 
-- Chandler - contributor
+- De'Ja - Github; Google Slides
 
-- Chris - contributor
+- Chandler - Machine Learning; Database; Google Slides
 
-- Anthony - contributor
+- Chris - Machine Learning; Database; Google Slides
+
+- Anthony - Dashboard; Github; Google Slides
 
 ## Resources
 Jupyter Notebook/Lab
@@ -123,4 +133,4 @@ PgAdmin
 RDS/AWS
 Exploratory Data
 Google Presentation
-The data will be sourced from (https://www.fisheries.noaa.gov/)
+Data Source: (https://www.fisheries.noaa.gov/)
