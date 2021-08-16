@@ -28,6 +28,18 @@ Below is the criteria for Segement #3 Rubric:
 
 https://docs.google.com/presentation/d/1sm7wlc8bZVtYHaXsrnpew_1lfN20yCyRBYqpo1Z_wH4/edit#slide=id.p1
 
+## Github
+
+Process:
+To kickstart our project, our main github contributor set up the main repository and team branches. Following that, gitignore was created, and branch rules set. As a team, we have communicated, merged branches accordingly and maintained clean main repo + branches.
+
+![Google Slide Img](https://user-images.githubusercontent.com/77905862/129499706-d18558b6-b786-4a9d-90e4-ca98f28a3509.png)
+
+![githubcollab (1)](https://user-images.githubusercontent.com/77905862/129499815-b77445bf-cdbf-400e-b7f3-8977908417d1.png)
+
+![branches](https://user-images.githubusercontent.com/77905862/129499820-d17cff14-a945-4491-bb40-958b19bcfbd1.png)
+
+
 ## Machine Learning Overview (Segment #3 Deliverable)
 Our analysis dives in on fishing trip data on the east coast of the United States. North Carolina is a fishing hub offering a wide variety of fishing tourism options through private rentals and charter boats. Our model aims to determine how successful fishers are at catching fish based on several factors. Our intial data was sourced from NOAA and held a variety of incomplete records. As a part of our data cleaning, we removed irrelevant qualitative columns to focus on key components of fishing trips including type of boat, excursion location, date/time, hours fished and proximity to shore. When we first ran our model, we noticed a perfect (100%) success rate, indicating that something was inadvertently skewing our model. Therefore, with a more critical eye, we devled into the data and discovered "number of fish available for inspection" was carrying the majority of the weight in our features for determining accuracy. Since our focus is probability of catching fish as opposed to "quanitity" we made the decision to remove this field. In doing so, we had a much more reasonable accuracy rate when re-running the model. Our data was split based on the outcome of the fishing trip e.g. were fish caught or not.
 
@@ -58,24 +70,56 @@ Our team used Postgres or SQLlite for our database (clean data). The data went h
 Below is a screenshot of the model's current accuracy score before refinement (Segment 1)
 
 ## Database
-[Segment #3 Changes:]
-Read in data from 6 source files image
-Assembled comprehensive dataframe
-Clean comp dataframe (drop NaN/null, rename columns, convert column types) image
-Filter out unknowns
-Split into keys and values dataframes and format these
-Generate dataframes and graphs for exploratory analysis:
-df_filtered_values_final
-df_filtered_keys_final
-df_sampling_period_sum
-df_sampling_period_avg
-df_kind_of_day_sum
-df_kind_of_day_avg
-df_mode_sum
-df_mode_avg
-df_target_sum
-df_target_avg
-Join AWS dataframes image image
+[Segment #3:]
+
+- Read in data from 6 source files 
+
+![6SourceFiles](https://user-images.githubusercontent.com/77905862/129498946-53d85654-f498-4768-b6a8-2ebd049d4581.png)
+
+- Assembled comprehensive dataframe
+
+- Clean comp dataframe (drop NaN/null, rename columns, convert column types) image
+
+![DropNull](https://user-images.githubusercontent.com/77905862/129498974-5a100341-f25c-4c06-8e7c-691eb2ba3f47.png)
+
+- Filter out unknowns
+- Split into keys and values dataframes and format these
+- Generate dataframes and graphs for exploratory analysis:
+- df_filtered_values_final
+- df_filtered_keys_final
+
+![sampling_period_hours_fished_sum](https://user-images.githubusercontent.com/77905862/129499013-850f038e-5d5f-4441-a8f9-3fb67054ca3a.png)
+
+- df_sampling_period_sum
+
+![sampling_period_hours_fished_avg](https://user-images.githubusercontent.com/77905862/129499028-1992d84a-6227-4405-b080-475b25dd39da.png)
+
+- df_sampling_period_avg
+
+![kind_day_hours_fished_sum](https://user-images.githubusercontent.com/77905862/129499237-9663e8e4-3f41-431d-a0ae-ac6b1685f9fc.png)
+
+- df_kind_of_day_sum
+
+![kind_day_hours_fished_avg](https://user-images.githubusercontent.com/77905862/129499277-56a388c4-cf8a-42a9-8756-06c2ada975a8.png)
+
+- df_kind_of_day_avg
+
+![mode_hours_fished_sum](https://user-images.githubusercontent.com/77905862/129499290-8ab3aeaa-865f-4963-8388-d2632788334f.png)
+
+- df_mode_sum
+
+![mode_hours_fished_avg](https://user-images.githubusercontent.com/77905862/129499309-0ee6ae23-2a8b-4bda-81b8-34472f6fd118.png)
+
+- df_mode_avg
+- df_target_sum
+- df_target_avg
+- Join AWS dataframes 
+
+![JoinAWS](https://user-images.githubusercontent.com/77905862/129499360-87cc3ce6-b0ae-4f5a-bb56-2c0d98ac5c9e.png)
+
+![JoinAWS(2)](https://user-images.githubusercontent.com/77905862/129499414-68298965-b402-4bfe-b89f-528640e00745.png)
+
+
 SEE VIDEOS BELOW
 
 
