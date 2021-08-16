@@ -1,21 +1,32 @@
 ## (Team Frist Center)
 ## The Fishing Project
 
+![Fishingrods](https://user-images.githubusercontent.com/77905862/129496450-b1aead10-483b-4350-9848-6595e02b231c.png)
 
-## Objective (Topic)
+
+
+## Topic Objective
 Our objective is to create a machine learning model + corresponding analysis for fishers and boating companies. The model will predict the most favorable outcomes for fishers based on varying conditions. Not only is this data beneficial for fishers, but also for the private/charter boat companies- as it allows them to adapt/align their business practices with our findings in mind. We want fishers less likely to go home empty handed, and boating companies more successful. The data we use showcases several fish species and what circumstances made a substantial catch. We display the average amount of time spent on fishing. We chose North Carolina as a sample state, with focus on it's coastal counties.
+
+## Goals:
+- Use Machine Learning to predict the probability of a catch
+- Showcase an interactive dashboard
+- Share our findings with fishers and boating companies to save them time and money
+
 
 ## Module 20 (Segment #3 Deliverable)
 Below is the criteria for Segement #3 Rubric:
 - Overall Presentation
-- GitHub
+- Google Slides
 - Machine Learning
 - Database
 - Dashboard
-- GitHub
+- GitHub Update: gitignore + requirements.txt::final git refinement before Seg #4 merge
 
 ## Google Slide Presentation 
+(Draft Link)
 
+https://docs.google.com/presentation/d/1sm7wlc8bZVtYHaXsrnpew_1lfN20yCyRBYqpo1Z_wH4/edit#slide=id.p1
 
 ## Machine Learning Overview (Segment #3 Deliverable)
 Our analysis dives in on fishing trip data on the east coast of the United States. North Carolina is a fishing hub offering a wide variety of fishing tourism options through private rentals and charter boats. Our model aims to determine how successful fishers are at catching fish based on several factors. Our intial data was sourced from NOAA and held a variety of incomplete records. As a part of our data cleaning, we removed irrelevant qualitative columns to focus on key components of fishing trips including type of boat, excursion location, date/time, hours fished and proximity to shore. When we first ran our model, we noticed a perfect (100%) success rate, indicating that something was inadvertently skewing our model. Therefore, with a more critical eye, we devled into the data and discovered "number of fish available for inspection" was carrying the majority of the weight in our features for determining accuracy. Since our focus is probability of catching fish as opposed to "quanitity" we made the decision to remove this field. In doing so, we had a much more reasonable accuracy rate when re-running the model. Our data was split based on the outcome of the fishing trip e.g. were fish caught or not.
@@ -24,14 +35,14 @@ Given our initial unfamiliarity with the data and the breadth of features, it wa
 
 
 ## Model Overview
-Initially we tested neural networks, random forests and Easy Ensemble models. Given our data set and objective of predicting the likelihood of a successful catch, we decided to use Balanced Random Forest. With this model, we were able to achieve an 83 % accuracy rate.
+First we tested neural networks, random forests and Easy Ensemble models. Given our data set and objective of predicting the likelihood of a successful catch, we decided to use Balanced Random Forest. With this model, we were able to achieve an 83 % accuracy rate.
 
 When we evaluated our different features, we were able to see time spent on fishing expeditions provided the highest input to the predicting success, followed by mode of trip and time of year.
 
 As we are trying to make recommendation to both charter companies and tourists on the east coast, clearly understanding what features matter most will help us make better informed recommendations to all parties to help the industry be successful, and lead to positive ooutcomes for tourists/fisherman.
 
  
-The group will be using Postgres or SQLlite for our database and have the data cleaned. Once cleaned, the data will then go into a machine learning transformation which will need fine tuning to get the answer to the questions we have listed above. Here is a screenshot of the data put into a machine learning model.
+Our team will be using Postgres or SQLlite for our database and have the data cleaned. Once cleaned, the data will then go into a machine learning transformation which will need fine tuning to get the answer to the questions we have listed above. Here is a screenshot of the data put into a machine learning model.
 
 
 
@@ -59,19 +70,41 @@ Join AWS dataframes image image
 SEE VIDEOS BELOW
 
 
-The team connected the database using PdAdmin and created a database as seen below. Click here to see the data working properly in Postgres
+The team connected the database using PdAdmin and created a database as seen below.
 
-## Dashboard
-Segment #2 Dashboard Outline
-Although the dashboard is still under refinement here is the current status:
-The team has connected the currrent data successfully and were able to get outputs to create a viz using tableau.
-Currently the data is being revised to better fit the visualiztion we are striving to achieve.
-Click here to see our interactive fishing project on Tableau
+## Segment #3 Dashboard
+Click here to see our Dashboard on Tableau
+[updates committed on main]
 
-## Results
+We started with a clean data source and connected it by creating extract.
+As you can see the extract to the data source was flawless.
+
+![Create Extract](https://user-images.githubusercontent.com/77905862/129496653-f04b2ced-6093-43e3-a8b9-e3f1a51f808d.png)
+
+With the data source we were able to input the data such as coordinates to display geographical models.
+Within this particular model you can see the amount of fish caught and reported within the coastal counties of North Carolina.
+
+![CreatingViz](https://user-images.githubusercontent.com/77905862/129496673-f0becfe0-8a3f-4ac9-b9c9-b39a8e362e18.png)
+
+Here you can see the heatmap displaying information of popular catches within the calendar year.
+The user can interact with the smaller boxes to see more information.
+The bigger the box the higher the number of catch.
+Don’t worry, the dolphins that were caught were released back into the ocean.
+
+![fishtabdash](https://user-images.githubusercontent.com/77905862/129496691-7924e343-fd41-4a84-ae05-8c543722459d.png)
+
+Interactive Dashboard
+With this dashboard you’re able to click around and identify the best area and times with just a quick glimpse. This was created using the Tableau dashboard options.
+
+![Interactive](https://user-images.githubusercontent.com/77905862/129496717-d346885c-d076-46af-8f44-11523317b91c.png)
+
+## Results:
+
+![results](https://user-images.githubusercontent.com/77905862/129496739-cde9be94-2572-468f-926b-bce6e97844c7.png)
+
 
 ## Group communication protocols
-Throughout Segment #2, our team made consistent cntact through Slack and Zoom. We shared information, code, and arranged meetings atleast once a week. We collaborated, asked for each other's input, and merged branches accordingly; this resulted in organized branches + clean repository. 
+Throughout Segment #3, our team made consistent contact through Slack and Zoom. During class, we edited the Google slides presentation together. We shared information, code, and arranged meetings atleast once a week. We collaborated, asked for each other's input, and merged branches accordingly; this resulted in organized branches + clean repository. 
 Team Responsibilties
 
 - De'Ja - contributor
