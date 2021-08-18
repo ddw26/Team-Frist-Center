@@ -69,10 +69,7 @@ for the user so they don't end up going home empty handed!
 - As we are trying to make recommendation to both charter companies and tourists on the east coast, clearly understanding what features mater most will help us make better informed recommendations to all parties to help the industry be successful, and lead to positive ooutcomes for tourists/fisherman.
 
 
-- (Segment 1) #The group will be using Postgres or SQLlite for our database and have the data cleaned. Once cleaned, the Data will
-then go into a machine learning transformation which will need fine tuning to get the answer to the questions we have listed above.
-Here is a screenshot of the data put into a machine learning model. 
-
+- Below is a screenshot of the data file fed into the model to predict the likelihood of catching a fish on a given fishing trip.
 ![image](https://github.com/ddw26/Team-Vand/blob/antxamp/Resources/SS_machine_learn.PNG)
 
 - Below is a screenshot of the model's current accuracy score before refinement (Segment 1)
