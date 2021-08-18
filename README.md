@@ -61,14 +61,6 @@ When we evaluated our different features, we were able to see time spent on fish
 Considering that our mission is to make recommendations to both charter companies and tourists on the east coast, having a clear understanding about which features are most valuable grant us the ability to make useful recommendations to all parties. The utility of our reccomendations will increase industry success overall, and lead to positive ooutcomes for tourists/fisherman.
 
 
-
- 
-Our team used Postgres or SQLlite for our database (clean data). The data went hen go into a machine learning transformation which fine tuning to get the answer to the questions we have listed above. Here is a screenshot of the data put into a machine learning model.
-
-
-
-Below is a screenshot of the model's current accuracy score before refinement (Segment 1)
-
 ## Database
 [Segment #3:]
 
