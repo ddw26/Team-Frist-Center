@@ -51,6 +51,16 @@ Process: To kickstart our project, our main github contributor set up the main r
 
 ![image](https://github.com/ddw26/Team-Frist-Center/blob/antxamp/Resources/githubcollab.PNG)
 
+
+Lastly, a requirements branch was created for the purpose of making a requirements.txt file. We pushed the requirements.txt file over from the requirements repository to the main repository.
+
+
+![requirement_merged](https://user-images.githubusercontent.com/77905862/130341752-18cf80e2-b468-45a0-a8b8-4f9c09b94cc7.PNG)
+
+
+![requirement_merged_2](https://user-images.githubusercontent.com/77905862/130341747-9d554010-ed2b-4d05-a81b-0d0f7bf22939.PNG)
+
+
 ----------------------------
 
 ## Machine Learning Overview (Segment 4 Deliverable)
