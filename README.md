@@ -5,19 +5,21 @@
 ![image](https://github.com/ddw26/Team-Vand/blob/antxamp/Resources/Fishingrods.PNG)
 
     --  Free stock images were used for parts of this project. 
-## Project Goal(Topic)
-- To create a prediction model about catching fish. The model will give a prediction on what conditions are favorable 
-for the user so they don't end up going home empty handed! 
-- We have data that shows the species of fish and we have North Carolina as a sample state with it's coastal counties. 
-- We are wanting to show the different conditions in which the different species of fish have been caught successfully.
-- We want to be able to use the data to predict better outcomes for those that are wanting to spend money with private boats or charters.
+## Goals and Objectives
+Objectives
+
+Our objective is to create a machine learning model + corresponding analysis for fishers and boating companies. The model will predict the most favorable outcomes for fishers based on varying conditions. Not only is this data beneficial for fishers, but also for the private/charter boat companies- as it allows them to adapt/align their business practices with our findings in mind. We want fishers less likely to go home empty handed, and boating companies more successful. The data we use showcases several fish species and what circumstances made a substantial catch. We display the average amount of time spent on fishing. We chose North Carolina as a sample state, with focus on it's coastal counties.
+
+Goals
+- Use Machine Learning to predict the probability of a catch based on varying conditions
+- Showcase our findings with an interactive dashboard
+- Share our findings with fishers and (private/charter) boating companies to save them time + money, all while predicting better outcomes
 - To display the average amount of time spent on fishing with the data that was provided.
-- Use machine learning to predict the probability of a catch.
 
 --------------------------
 
-## Module 20 (Segment 3 Deliverable)
-### Below is the criteria for Segement 3 rubric:
+## Module 20 (Segment 4 Deliverable)
+### Below is the criteria for Segement 4 rubric:
 - Using Google Slide
 - GitHub 
 - Machine Learning
@@ -27,7 +29,7 @@ for the user so they don't end up going home empty handed!
 ----------------------------
 ## Google Slide Presentation
 - In Google slides all team members were all allowed access and added to the presentation via live during class. 
-- These are some screen shots of some of the work team members have contributed. 
+- Below are screen shots of some of the work team members have contributed. 
 - All members had individual input with great teamwork.
 
 [Click here for Google Slide](https://docs.google.com/presentation/d/1sm7wlc8bZVtYHaXsrnpew_1lfN20yCyRBYqpo1Z_wH4/edit#slide=id.p1)
@@ -41,24 +43,27 @@ for the user so they don't end up going home empty handed!
 ----------------------------
 
 ## GitHub
-- As a team we were able to communicate and merge branches accordingly and have kept the main repo and branches clean. 
+Process: To kickstart our project, our main github contributor set up the main repository and team branches. Following that, gitignore was created, and branch rules set. As a team, we have communicated, merged branches accordingly and maintained clean main repo + branches.
+
+![Branch rules](https://user-images.githubusercontent.com/77905862/130138187-6c3b4538-6995-4711-9aa8-dff053dff505.png)
 
 ![image](https://github.com/ddw26/Team-Vand/blob/antxamp/Resources/branches.PNG)
+
 ![image](https://github.com/ddw26/Team-Frist-Center/blob/antxamp/Resources/githubcollab.PNG)
 
 ----------------------------
 
-## Machine Learning Overview (Segment 3 Deliverable)
+## Machine Learning Overview (Segment 4 Deliverable)
 
-- Our analysis dives in on fishing trip data on the east coast of the united states. North Carolina is a fishing hub offering a wide variety of fishing tourism options through private rentals and charter boats. Our model sets out to determine how successful fishers are at catching fish based on several factors. Our intial data was sourced from NOAA and held a variety of incomplete records. As a part of our data cleaning, we stripped out non-relevant qualitative columns to focus on key components of fishing trips including type of boat, excursion location, date/time, houirs fished and proximity to shore. When we initially ran our model, we noticed a a perfect success rate indicating something was inadvertently skewing our model. Upon diving into the data, we discovered "number of fish available for inspection" was carrying the majority of the weight in our features for determining our accuracy. Since our focus is probability of catching fish as opposed to "quanitity" we made the decision to remove this field. Upon doing so and re-runnning the model, we had a much more reasonable accuracy rate. Our data was split based on the outcome of the fishing trip e.g. were fish caught or not.
+Our analysis dives in on fishing trip data on the east coast of the United States. North Carolina is a fishing hub offering a wide variety of fishing tourism options through private rentals and charter boats. Our model aims to determine how successful fishers are at catching fish based on several factors. Our intial data was sourced from NOAA and held a variety of incomplete records. As a part of our data cleaning, we removed irrelevant qualitative columns to focus on key components of fishing trips including type of boat, excursion location, date/time, hours fished and proximity to shore. When we first ran our model, we noticed a perfect (100%) success rate, indicating that something was inadvertently skewing our model. Therefore, with a more critical eye, we devled into the data and discovered "number of fish available for inspection" was carrying the majority of the weight in our features for determining accuracy. Since our focus is probability of catching fish as opposed to "quanitity" we made the decision to remove this field. In doing so, we had a more reasonable accuracy rate when re-running the model. Our data was split based on the outcome of the fishing trip e.g. were fish caught or not.
 
-- Given our initial unfamiliarity with the data and the breadth of features, it was important our model provided flexbility without substantial normalization efforts. - - -Additionally, given our data set, Random Forests helps us minimize overfitting and works well with non-linear data such as our fishing data set.
+Given our initial unfamiliarity with the data and the breadth of features, it was important our model provided flexbility without substantial normalization efforts. - - -Additionally, given our data set, Random Forests helps minimize overfitting and works well with non-linear data such as our fishing data set.
  
 <img width="663" alt="Screen Shot 2021-08-05 at 7 42 50 PM" src="https://user-images.githubusercontent.com/80016496/128438817-ceb30b6f-4006-460d-a5dc-71471bb96209.png">
 
 ### Model Overview
 
-- Initially we tested  neural networks, random forests and Easy Ensemble models initially. Give our data set and objective of predicting the likelihood of successfully catching fish, we decided to use Balanced Random Forest. With this model, we were able to achieve an 83 % accuracy rate. 
+- First we tested neural networks, random forests and Easy Ensemble models. Given our data set and objective of predicting the likelihood of a successful catch, we decided to use Balanced Random Forest. With this model, we achieved an 83 % accuracy rate.
 
 <img width="679" alt="Screen Shot 2021-08-06 at 5 27 58 PM" src="https://user-images.githubusercontent.com/80016496/128576837-69a9f7f6-a30d-4227-ba9f-665dcbb4a5e6.png">
 
@@ -66,13 +71,9 @@ for the user so they don't end up going home empty handed!
 
 <img width="686" alt="Screen Shot 2021-08-06 at 5 29 31 PM" src="https://user-images.githubusercontent.com/80016496/128576966-efa7dc3a-fef3-479b-a465-3cce69d0d18a.png">
 
-- As we are trying to make recommendation to both charter companies and tourists on the east coast, clearly understanding what features mater most will help us make better informed recommendations to all parties to help the industry be successful, and lead to positive ooutcomes for tourists/fisherman.
+- Considering that our mission is to make recommendations to both charter companies and tourists on the east coast, having a clear understanding about which features are most valuable grant us the ability to make useful recommendations to all parties. The utility of our reccomendations will increase industry success overall, and lead to positive outcomes for tourists/fisherman.
 
-
-- (Segment 1) #The group will be using Postgres or SQLlite for our database and have the data cleaned. Once cleaned, the Data will
-then go into a machine learning transformation which will need fine tuning to get the answer to the questions we have listed above.
-Here is a screenshot of the data put into a machine learning model. 
-
+- Below is a screenshot of the data file fed into the model to predict the likelihood of catching a fish on a given fishing trip.
 ![image](https://github.com/ddw26/Team-Vand/blob/antxamp/Resources/SS_machine_learn.PNG)
 
 - Below is a screenshot of the model's current accuracy score before refinement (Segment 1)
@@ -81,7 +82,7 @@ Here is a screenshot of the data put into a machine learning model.
 ----------------------------
 
 ## Database
-### Segment 3
+### Segment 4
 - Read in data from 6 source files
 ![image](https://github.com/ddw26/Team-Frist-Center/blob/antxamp/Resources/6SourceFiles.PNG)
 - Assembled comprehensive dataframe
@@ -122,7 +123,7 @@ Here is a screenshot of the data put into a machine learning model.
 ----------------------------
 
 ## Dashboard
-### Segment 3 Dashboard
+### Segment 4 Dashboard
 
 [Click here to see our Dashboard on Tableau](https://public.tableau.com/views/TheFishingProject/CountiesNC?:language=en-US&:display_count=n&:origin=viz_share_link)
 
@@ -160,18 +161,17 @@ Here is a screenshot of the data put into a machine learning model.
 -----------------------------
 
 ## Group communication protocols
-- Throughout this project the group has constantly made contact through the slack app and zoom. 
-- This includes sharing information that we find online, code & arranging meetings at least once a week.
+Throughout this project, our team made consistent contact through Slack and Zoom. During class, we collaborated with our model and database, tested our interactive dashboard, and worked on our Google slides presentation together. We shared information, code, and arranged meetings atleast once a week. We asked for each other's input, and merged branches accordingly; this resulted in organized branches + clean repository.
 
 **Team Responsibilties**
 
-***De'Ja*** - contributor
+**De'ja** - Github; Google Slides
 
-***Chandler*** - contributor
+**Chandler** - Machine Learning; Database; Google Slides
 
-***Chris*** - contributor
+**Chris** - Machine Learning; Database; Google Slides
 
-***Anthony*** - contributor 
+**Anthony** - Dashboard; Github; Google Slides
 
 -----------------------------
 
